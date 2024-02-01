@@ -1,0 +1,16 @@
+export const operations = {
+  getPosts: { path: '/posts', method: 'get' },
+  'get_posts-id': { path: '/posts/:id', method: 'get' },
+  'get_posts-id-comments': { path: '/posts/:id/comments', method: 'get' },
+  getComments: { path: '/comments', method: 'get' },
+  getComment: { path: '/comments/:id', method: 'get' },
+  getAlbums: { path: '/albums', method: 'get' },
+  'get_albums-id': { path: '/albums/:id', method: 'get' },
+  'get_albums-id-photos': { path: '/albums/:id/photos', method: 'get' },
+  getPhotos: { path: '/photos', method: 'get' },
+  getPhoto: { path: '/photos/:id', method: 'get' },
+  getTodos: { path: '/todos', method: 'get' },
+  getTodo: { path: '/todos/:id', method: 'get' },
+  getUsers: { path: '/users', method: 'get' },
+  getUser: { path: '/users/:id', method: 'get' },
+} as const
