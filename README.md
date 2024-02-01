@@ -5,7 +5,7 @@
 ## How to start?
 ### Install dependencies
 ```bash
-npx kubb
+npm i
 ```
 
 ### Generate actual codegen
